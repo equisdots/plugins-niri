@@ -1,0 +1,17 @@
+{
+  "id": "screenshots",
+  "name": "Screenshots & Recording (niri)",
+  "version": "0.1.0",
+  "author": "equisdots",
+  "description": "Screenshots (area/full/edit) and screen recording for the niri session via niri_screenshot.sh and niri_record.sh",
+  "type": "mixed",
+  "standalone": ["ui/ScreenshotOverlay.qml"],
+  "provides": {
+    "bar": {
+      "modules": {
+        "recording": { "comp": "bar/Recording.qml", "label": "Recording", "icon": "\uf28d" }
+      }
+    }
+  },
+  "defaultEnabled": true
+}
